@@ -1,0 +1,14 @@
+.faq_left button{
+    @apply mt-[20px] flex items-center gap-[8px] rounded-lg bg-[#6366F1] px-[28px] py-[11px] font-Manrope font-semibold text-[14px] text-white
+
+}
+.szh-accordion{
+    @apply  w-[746px] rounded-md
+}
+.szh-accordion__item-btn{
+    @apply font-Manrope font-semibold text-[16px] text-[#131022] min-w-full flex justify-self-start  py-[21px] px-[24px] border-2 border-[#E2E5F1]
+}
+
+.szh-accordion__item-panel{
+    @apply text-[#585C7B] text-[14px] font-Manrope font-normal min-w-full flex justify-self-start py-[21px] px-[24px] border-2 border-[#E2E5F1]
+}

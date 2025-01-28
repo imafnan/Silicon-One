@@ -1,0 +1,14 @@
+
+.slick-prev:before, .slick-next:before{
+    @apply  text-[30px] text-slate-600
+
+}
+.slider{
+    @apply w-[1290px] flex justify-center items-center
+}
+.slider img{
+    @apply pl-20 py-3 opacity-[80%] transition-all duration-[.3s] w-[330px] object-cover flex items-center justify-center
+}
+.slider img:hover{
+    @apply transform scale-[1.05] opacity-[100%]
+}

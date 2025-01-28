@@ -1,0 +1,15 @@
+.h-left h1{
+    @apply w-[526px] text-[56px] font-extrabold font-Manrope
+}
+.h-left p{
+    @apply w-[440px] text-[18px] font-normal font-Manrope pt-[24px]
+}
+.Hero {
+    @apply pt-[148px] mb-[97px]  bg-gradient-to-b from-white to-[#FBF4FE]
+    
+}
+
+
+.h-right img{
+    @apply w-[100%] h-[688px]
+}

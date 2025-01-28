@@ -1,0 +1,12 @@
+.slick-prev{
+    @apply hidden
+}
+.slick-next{
+    @apply hidden
+}
+/* .slick-prev, .slick-next{
+
+} */
+.slick-prev:before, .slick-next:before{
+    @apply hidden
+}

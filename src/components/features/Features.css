@@ -1,0 +1,27 @@
+.App_Features{
+    @apply w-[746px] 
+}
+.App_Features h2{
+    @apply text-[#131022] text-[40px] font-extrabold font-Manrope pb-[24px]
+}
+.App_Features p{
+    @apply text-[#9397AD] text-[18px] font-normal font-Manrope pb-[56px]
+}
+.Easy_Payments{
+    @apply w-[345px] flex gap-[24px]
+}
+.Easy_Payments h3{
+    @apply pb-3 font-Manrope text-[20px] font-extrabold text-[#131022]
+} 
+
+.Easy_Payments p{
+    @apply font-Manrope text-[16px] font-normal text-[#585C7B]
+}
+
+
+.Easy_Payments img{
+    @apply w-[25px] h-[25px] flex items-center justify-center align-middle
+}
+.Easy_Payments .image{
+    @apply flex items-center justify-center w-[60px] h-[60px] bg-[#6365f123] rounded-lg
+}

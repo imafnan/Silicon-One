@@ -1,0 +1,5 @@
+.nev_right .button{
+    @apply flex items-center gap-[8px] px-[20px] py-[9px] bg-[#6366F1] rounded-[5px] text-white
+}
+
+
