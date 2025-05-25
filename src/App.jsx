@@ -1,6 +1,6 @@
 import { createBrowserRouter, createRoutesFromElements, Route, Router, RouterProvider } from 'react-router-dom'
 import './App.css'
-import LayOutOne from './components/layuout/LayOutOne'
+import LayOutOne from './components/layout/LayOutOne'
 import Home from './pages/Home'
 
 function App() {
