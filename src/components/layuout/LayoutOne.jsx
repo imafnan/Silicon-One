@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from '../navbar/Navbar'
 import { Outlet } from 'react-router-dom'
 
-const LayOutOne = () => {
+const LayoutOne = () => {
   return (
-    <>
-    <Navbar/>
-    <Outlet/>
-    </>
+    <div>
+      <Navbar/>
+      <Outlet/>
+    </div>
   )
 }
 
-export default LayOutOne
+export default LayoutOne
