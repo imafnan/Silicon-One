@@ -2,6 +2,7 @@ import { RxPerson } from "react-icons/rx";
 import React from 'react'
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
+import lg from '../../assets/img/logo.png'
 const Navbar = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div className="container flex justify-between">
             {/* left  side*/}
         <div className="nav_left flex items-center gap-[48px]">
-            <img src="public/logo.png" alt="logo" />
+            <img src={lg} alt="logo" />
             <ul className="flex gap-[24px] text-[#3E4265] font-semibold text-[16px]">
                 <li><Link href="#">Features</Link></li>
                 <li><Link href="#">Overview</Link></li>

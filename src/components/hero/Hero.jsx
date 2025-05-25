@@ -3,6 +3,8 @@ import { AiFillApple } from "react-icons/ai";
 import React from 'react'
 import "./Hero.css"
 import { Link } from "react-router-dom";
+import pys from '../../assets/img/playStore.png'
+import pht from '../../assets/img/phone.png'
 
 const Hero = () => {
   return (
@@ -22,7 +24,7 @@ const Hero = () => {
                     </div>
                     <div className="flex items-center gap-[10px] py-[5px] px-[20px] rounded-lg bg-[#131022] w-[180px]">
                         <div className="text-[50px] flex items-center justify-center text-white ">
-                            <img src="public/playStore.png" alt="" />
+                            <img src={pys} alt="" />
                         </div>
                         <Link to={"#"}><span className="text-[10px] text-white">Download on the</span> <br /><span className="text-[17px] font-bold text-white">App Store</span></Link>
                     </div>
@@ -37,7 +39,7 @@ const Hero = () => {
             </div>
 
             <div className="h-right ">
-                <img src="public/phone.png" alt="image"/>
+                <img src={pht}alt="image"/>
             </div>
         </div>
 
