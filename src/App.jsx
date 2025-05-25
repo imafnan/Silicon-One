@@ -1,7 +1,7 @@
 import { createBrowserRouter, createRoutesFromElements, Route, Router, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
-import LayoutOne from './components/layuout/LayOutOne'
+import LayoutOne from '../src/components/Layuout/LayoutOne';
 
 function App() {
   const myRoute = createBrowserRouter(createRoutesFromElements(
