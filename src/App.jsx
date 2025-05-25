@@ -1,12 +1,12 @@
 import { createBrowserRouter, createRoutesFromElements, Route, Router, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
-import LayoutOne from '../src/components/Layuout/LayoutOne';
+import Layout from './components/Layout/Layout.jsx'
 
 function App() {
   const myRoute = createBrowserRouter(createRoutesFromElements(
    
-    <Route path='/' element={<LayoutOne/>}>
+    <Route path='/' element={<Layout/>}>
       <Route index element={<Home/>}/>
    </Route>
   ))
