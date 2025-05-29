@@ -2,6 +2,9 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ip from  '../../assets/img/iPhone 12 Pro.png'
+import ip1 from '../../assets/img/iPhone 12 Pro1.png'
+import ip2 from '../../assets/img/iPhone 12 Pro2.png'
 import "./Work.css"
 const Work = () => {
   var settings = {
@@ -46,13 +49,13 @@ const Work = () => {
               <div className="slider-container mx-auto pb-[44px]">
                 <Slider {...settings} className='slider '>
                     <div>
-                      <img src="public/iPhone 12 Pro.png" alt="" />
+                      <img src={ip} alt="" />
                     </div>
                     <div>
-                      <img src="public/iPhone 12 Pro1.png" alt="" />
+                      <img src={ip1} alt="" />
                     </div>
                     <div>
-                      <img src="public/iPhone 12 Pro2.png" alt="" />
+                      <img src={ip2} alt="" />
                     </div>
                     
                 </Slider>

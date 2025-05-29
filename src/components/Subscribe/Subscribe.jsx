@@ -1,6 +1,7 @@
 import { FiMail } from "react-icons/fi"; 
 import React from 'react'
 import { Link } from 'react-router-dom'
+import nt from '../../assets/img/notification.png'
 
 const Subscribe = () => {
   return (
@@ -9,7 +10,7 @@ const Subscribe = () => {
         <div className="container flex justify-around">
             <div className="Subscribe_left ">
                 <div className='w-[526px] flex gap-[32px] items-center py-[72px]'>
-                    <img src="public/notification.png" alt="" />
+                    <img src={nt} alt="" />
                     <h2 className='w-[416px] font-Manrope font-extrabold text-[24px] text-[#131022]'>Subscribe to our newsletter to stay informed about latest updates</h2>
                 </div>
             </div>

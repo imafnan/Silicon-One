@@ -1,6 +1,7 @@
 import { BiRightArrowAlt } from "react-icons/bi"; 
 import { MdOutlineCheckCircle } from "react-icons/md"; 
 import React from 'react'
+import v from '../../assets/img/video.png'
 import "./Use.css"
 const Use = () => {
   return (
@@ -18,7 +19,7 @@ const Use = () => {
             </div>
             
             <div className="use_img">
-                <img src="public/video.png" alt="" className="w-[746px] h-[460px] bg-slate-500 rounded-md"/>
+                <img src={v} alt="" className="w-[746px] h-[460px] bg-slate-500 rounded-md"/>
             </div>
         </div>
     </section>

@@ -1,12 +1,21 @@
 import React from 'react'
 import "./Features.css"
+import fu from '../../assets/img/appFeatures.png'
+import v from '../../assets/img/Vector.png'
+import v1 from '../../assets/img/Vector1.png'
+import v2 from '../../assets/img/Vector2.png'
+import v3 from '../../assets/img/Vector3.png'
+import v4 from '../../assets/img/Vector4.png'
+import v5 from '../../assets/img/Vector5.png'
+
+
 const Features = () => {
   return (
     <>
     <section className='Features pb-[112px]'>
         <div className="container flex justify-between">
             <div className="Features_left">
-                <img src="public/appFeatures.png" alt="" />
+                <img src={fu} alt="" />
             </div>
             <div className="Features_right">
                 <div className='App_Features'>
@@ -19,7 +28,7 @@ const Features = () => {
 
                             <div className='Easy_Payments'>
                                 <div className="image">
-                                    <img src="public/Vector.png" alt="" sizes='30px'/>
+                                    <img src={v} alt="" sizes='30px'/>
                                 </div>
                                 <div className='w-[261px]'>
                                     <h3>Easy Payments</h3>
@@ -29,7 +38,7 @@ const Features = () => {
 
                             <div className='Easy_Payments'>
                                 <div className="image">
-                                    <img src="public/Vector2.png" alt="" sizes='30px'/>
+                                    <img src={v2} alt="" sizes='30px'/>
                                 </div>
                                 <div className='w-[261px]'>
                                     <h3>Cost Statistics</h3>
@@ -39,7 +48,7 @@ const Features = () => {
 
                             <div className='Easy_Payments'>
                                 <div className="image">
-                                    <img src="public/Vector4.png" alt="" sizes='30px'/>
+                                    <img src={v4} alt="" sizes='30px'/>
                                 </div>
                                 <div className='w-[261px]'>
                                     <h3>Regular Cashback</h3>
@@ -53,7 +62,7 @@ const Features = () => {
 
                         <div className='Easy_Payments'>
                             <div className="image">
-                                <img src="public/Vector1.png" alt="" sizes='30px'/>
+                                <img src={v1} alt="" sizes='30px'/>
                             </div>
                             <div className='w-[261px]'>
                                 <h3>Data Security</h3>
@@ -63,7 +72,7 @@ const Features = () => {
 
                         <div className='Easy_Payments'>
                             <div className="image">
-                                <img src="public/Vector3.png" alt="" sizes='30px'/>
+                                <img src={v3} alt="" sizes='30px'/>
                             </div>
                             <div className='w-[261px]'>
                                 <h3>Support 24/7</h3>
@@ -73,7 +82,7 @@ const Features = () => {
 
                         <div className='Easy_Payments'>
                             <div className="image">
-                                <img src="public/Vector5.png" alt="" sizes='30px'/>
+                                <img src={v5} alt="" sizes='30px'/>
                             </div>
                             <div className='w-[261px]'>
                                 <h3>Top Standards</h3>

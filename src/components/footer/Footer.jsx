@@ -4,6 +4,8 @@ import { BsTwitter } from "react-icons/bs";
 import { AiFillFacebook } from "react-icons/ai"; 
 import React from 'react'
 import { Link } from 'react-router-dom'
+import l from '../../assets/img/logo.png'
+import pl from '../../assets/img/playStore.png'
 
 const Footer = () => {
   return (
@@ -11,7 +13,7 @@ const Footer = () => {
     <section className='Footer pb-[48px]'>
         <div className="container">
             <div className="image pb-[56px]">
-                <img src="public/logo.png" alt=""  className='mx-auto'/>
+                <img src={l} alt=""  className='mx-auto'/>
             </div>
             <ul className='flex justify-center gap-[56px] pb-[64px] text-[16px] font-Manrope font-semibold'>
                 <li><Link to={"/"}>Home</Link></li>
@@ -29,7 +31,7 @@ const Footer = () => {
 
                 <div className="flex items-center gap-[10px] py-[5px] px-[20px] rounded-lg bg-[#131022] w-[180px]">
                     <div className="text-[50px] flex items-center justify-center text-white ">
-                        <img src="public/playStore.png" alt="" />
+                        <img src={pl} alt="" />
                     </div>
                     <Link to={"#"}><span className="text-[10px] text-white">Download on the</span> <br /><span className="text-[17px] font-bold text-white">App Store</span></Link>
                 </div>
